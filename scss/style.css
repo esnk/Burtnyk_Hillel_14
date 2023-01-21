@@ -1,0 +1,43 @@
+@import "/styles/reset.css";
+.bg-sprite {
+  background-image: url("/image/sprite.png");
+  background-position: -2px -38px;
+  width: 80px;
+  height: 24px;
+}
+
+.bg-sprite-2 {
+  background-image: url("/image/sprite-2.png");
+  background-position: -85px 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.rating a {
+  text-decoration: none;
+  color: #007185;
+}
+.rating span {
+  color: #666;
+  padding: 0 5px 0 5px;
+}
+
+.climate a {
+  text-decoration: none;
+  color: #168342;
+}
+
+.price .price__symbol {
+  font-size: 13px;
+}
+.price .price__whole {
+  font-size: 28px;
+  margin-top: -8px;
+}
+.price .price__fraction {
+  font-size: 13px;
+}
+.price .price__text {
+  font-size: 18px;
+  color: #b12704;
+}/*# sourceMappingURL=style.css.map */
