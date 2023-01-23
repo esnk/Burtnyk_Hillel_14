@@ -22,6 +22,11 @@
   padding: 0 5px 0 5px;
 }
 
+.rating a:hover {
+  color: #b12704;
+  text-decoration: underline;
+}
+
 .climate a {
   text-decoration: none;
   color: #168342;
@@ -40,4 +45,9 @@
 .price .price__text {
   font-size: 18px;
   color: #b12704;
+}
+
+.container-img {
+  width: 679px;
+  height: 658px;
 }/*# sourceMappingURL=style.css.map */
