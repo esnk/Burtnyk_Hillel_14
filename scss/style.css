@@ -50,4 +50,98 @@
 .container-img {
   width: 679px;
   height: 658px;
+}
+
+.list__item__item-1 {
+  position: absolute;
+  display: none;
+}
+
+.list__item-1:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.list__item-1:hover .list__item__item-1 {
+  display: block;
+  list-style: none;
+}
+
+.list__item__item-2 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+
+.list__item-2:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.list__item-2:hover.list__item__item-2 {
+  display: block;
+  list-style: none;
+}
+
+.list__item__item-3 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+
+.list__item-3:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.list__item-3:hover .list__item__item-3 {
+  display: block;
+  list-style: none;
+}
+
+.list__item__item-4 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+
+.list__item-4:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.list__item-4:hover .list__item__item-4 {
+  display: block;
+  list-style: none;
+}
+
+.list__item__item-5 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+
+.list__item-5:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.list__item-5:hover .list__item__item-5 {
+  display: block;
+  list-style: none;
+}
+
+.list__item__item-6 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+
+.list__item-6:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.list__item-6:hover .list__item__item-6 {
+  display: block;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */

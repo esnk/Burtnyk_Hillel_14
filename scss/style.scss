@@ -12,47 +12,131 @@
   height: 20px;
 }
 .rating {
-  & a {
+  a {
     text-decoration: none;
     color: #007185;
   }
-  & span {
+   span {
     color: #666;
     padding: 0 5px 0 5px;
   }
 }
 .rating {
-  & a:hover {
+  a:hover {
     color: #b12704;
     text-decoration: underline;
   }
 }
 .climate {
-  & a {
+  a {
     text-decoration: none;
     color: #168342;
   }
- 
 }
 
-
 .price {
-  & .price__symbol {
+   .price__symbol {
     font-size: 13px;
   }
-  & .price__whole {
+  .price__whole {
     font-size: 28px;
     margin-top: -8px;
   }
-  & .price__fraction {
+   .price__fraction {
     font-size: 13px;
   }
-  & .price__text {
+   .price__text {
     font-size: 18px;
     color: #b12704;
   }
 }
-.container-img{
+.container-img {
   width: 679px;
   height: 658px;
+
+
+}
+
+.list__item__item-1 {
+  position: absolute;
+
+  display: none;
+}
+.list__item-1:hover {
+    border: 2px solid orange;
+    cursor: pointer;
+  & .list__item__item-1 {
+      display: block;
+      list-style: none;
+  }
+}
+.list__item__item-2 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+.list__item-2:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+   &.list__item__item-2 {
+      display: block;
+      list-style: none;
+  }
+}
+.list__item__item-3 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+.list__item-3:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+   .list__item__item-3{
+      display: block;
+      list-style: none;
+  }
+}
+.list__item__item-4 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+.list__item-4:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+   .list__item__item-4{
+      display: block;
+      list-style: none;
+  }
+}
+.list__item__item-5 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+.list__item-5:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+   .list__item__item-5{
+      display: block;
+      list-style: none;
+  }
+}
+.list__item__item-6 {
+  position: absolute;
+  left: 103px;
+  top: 0;
+  display: none;
+}
+.list__item-6:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+   .list__item__item-6{
+      display: block;
+      list-style: none;
+  }
 }
