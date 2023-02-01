@@ -165,3 +165,18 @@
     list-style: none;
   }
 }
+.list__item__item-7 {
+  position: absolute;
+  left: 23px;
+  top: 0;
+  display: none;
+}
+.list__item-7:hover {
+  border: 1px solid orange;
+  box-shadow: 0 0 10px orange;
+  cursor: pointer;
+  .list__item__item-7 {
+    display: block;
+    list-style: none;
+  }
+}
